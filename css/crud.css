@@ -1,0 +1,47 @@
+* {
+    transition: all .2s;
+}
+body {
+    background-color: rgba(20, 18, 3, 0.637);
+}
+input,
+select {
+    background-color: rgb(0,0,0,.8) !important;
+    color: white !important;
+    border: none !important;
+    transition: all .3s !important;
+}
+input:focus,
+select:focus {
+    transform: scale(1.03);
+}
+.alert {
+    color: red;
+    background-color: rgb(0,0,0,.3);
+}
+::placeholder {
+    color: rgba(222, 184, 135, 0.5) !important;
+    font-weight: 500;
+}
+table {
+    border-collapse: separate;
+}
+#tableData {
+    font-weight: 500;
+}
+::-webkit-scrollbar {
+    background-color: rgb(0,0,0,.3);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0,0,0,.5);
+}
+::selection {
+    background-color: rgba(241, 81, 81, 0.6);
+    color: white;
+}
+.products .container .item {
+    background-color: rgba(222, 184, 135, 0.5);
+}
+.products .container ul span {
+    color: rgb(0,0,0,.5) !important;
+}
